@@ -38,7 +38,7 @@ class SynarchClient {
         description: process.env.AGENT_DESCRIPTION,
         config: {
           log_level: process.env.LOG_LEVEL || "info",
-          max_retries: parseInt(process.env.MAX_RETRIES || "3"),
+          max_retries: parseInt(process.env.MAX_RETRIES || "5"),
           auto_restart: process.env.AUTO_RESTART === "true",
         },
       });
