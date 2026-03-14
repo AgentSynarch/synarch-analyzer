@@ -1,0 +1,22 @@
+{
+  "name": "synarch-analyzer",
+  "version": "2.1.0",
+  "description": "SYNARCH Analyzer Agent -- AST-powered code analysis, security scanning, complexity metrics, and multi-format report generation.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node src/self-test.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "glob": "^10.3.10",
+    "acorn": "^8.11.3",
+    "acorn-walk": "^8.3.2",
+    "acorn-jsx": "^5.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
